@@ -118,14 +118,14 @@ export async function getAllImages({ limit = 9, page = 1, searchQuery = '' }: {
     //   .expression(expression)
     //   .execute();
 
-    const resourceIds = resources.map((resource: any) => resource.public_id);
+    //const resourceIds = resources.map((resource: any) => resource.public_id);
 
     let query = {};
 
     if(searchQuery) {
       query = {
         publicId: {
-          $in: resourceIds
+          //$in: resourceIds
         }
       }
     }
