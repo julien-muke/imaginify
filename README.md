@@ -2499,4 +2499,6 @@ export default Profile;
 
 Public Assets used in the project can be found [here](https://drive.google.com/file/d/1uv1zyCjbYBQE9qnwh2snwO0NBgoop5gz/view?usp=sharing)
 
+🌐 [Live Site](https://imaginify-eight-omega.vercel.app/)
+
 #
